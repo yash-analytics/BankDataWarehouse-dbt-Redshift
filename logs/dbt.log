@@ -118,3 +118,63 @@ Happy modeling!
 [0m12:18:40.579537 [debug] [MainThread]: Command `dbt init` succeeded at 12:18:40.579537 after 47.34 seconds
 [0m12:18:40.580530 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015641A28CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015647E0C150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015641CAE010>]}
 [0m12:18:40.580530 [debug] [MainThread]: Flushing usage events
+[0m13:38:35.158929 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BD2EE14990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BD31B13F50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BD31B48E90>]}
+
+
+============================== 13:38:35.167381 | bcec7fe8-6f77-40b0-9155-ace443e0fa6f ==============================
+[0m13:38:35.167381 [info ] [MainThread]: Running with dbt=1.8.1
+[0m13:38:35.168414 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Yash Joshi\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m13:38:42.360710 [debug] [MainThread]: Starter project path: C:\Users\Yash Joshi\Documents\GitHub\BankDataWarehouse-dbt-Redshift\venv\Lib\site-packages\dbt\include\starter_project
+[0m13:38:42.444108 [info ] [MainThread]: 
+Your new dbt project "DBT_Project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:38:42.444108 [info ] [MainThread]: Setting up your profile.
+[0m13:38:47.047995 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m13:38:47.047995 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m13:40:47.496994 [info ] [MainThread]: Profile DBT_Project written to C:\Users\Yash Joshi\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:40:47.496994 [debug] [MainThread]: Command `dbt init` succeeded at 13:40:47.496994 after 132.44 seconds
+[0m13:40:47.496994 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BD318DC990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BD2B608C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BD2B608D90>]}
+[0m13:40:47.496994 [debug] [MainThread]: Flushing usage events
+[0m18:31:10.022707 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002529FBE8CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002529FC3A250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002529FC39750>]}
+
+
+============================== 18:31:10.026717 | ebfae63e-d98a-444b-9a86-79311ae23883 ==============================
+[0m18:31:10.026717 [info ] [MainThread]: Running with dbt=1.8.1
+[0m18:31:10.028903 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Yash Joshi\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m18:31:30.180785 [debug] [MainThread]: Starter project path: C:\Users\Yash Joshi\Documents\GitHub\BankDataWarehouse-dbt-Redshift\venv\Lib\site-packages\dbt\include\starter_project
+[0m18:31:30.249477 [info ] [MainThread]: 
+Your new dbt project "DBT_Redshift" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:31:30.251476 [info ] [MainThread]: Setting up your profile.
+[0m18:31:34.455578 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m18:31:34.457174 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m18:32:55.552664 [info ] [MainThread]: Profile DBT_Redshift written to C:\Users\Yash Joshi\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:32:55.553688 [debug] [MainThread]: Command `dbt init` succeeded at 18:32:55.553688 after 105.62 seconds
+[0m18:32:55.554667 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252997A8C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002529EAF1FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002529FBE3CD0>]}
+[0m18:32:55.554667 [debug] [MainThread]: Flushing usage events
