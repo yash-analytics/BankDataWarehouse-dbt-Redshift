@@ -1,0 +1,120 @@
+[0m12:10:23.355452 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026BB5F795D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026BB5F57690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026BB5F79250>]}
+
+
+============================== 12:10:23.359172 | dc1ebe87-cfbe-4b00-b858-69d8f72f0e35 ==============================
+[0m12:10:23.359172 [info ] [MainThread]: Running with dbt=1.8.1
+[0m12:10:23.360295 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Yash Joshi\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:10:34.828730 [debug] [MainThread]: Starter project path: C:\Users\Yash Joshi\Documents\GitHub\BankDataWarehouse-dbt-Redshift\venv\Lib\site-packages\dbt\include\starter_project
+[0m12:10:34.843729 [info ] [MainThread]: 
+Your new dbt project "dbt_redshift_dw" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:10:34.845110 [info ] [MainThread]: Setting up your profile.
+[0m12:10:38.177081 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m12:10:38.178081 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m12:11:40.625788 [info ] [MainThread]: Profile dbt_redshift_dw written to C:\Users\Yash Joshi\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:11:40.626790 [debug] [MainThread]: Command `dbt init` succeeded at 12:11:40.626790 after 77.33 seconds
+[0m12:11:40.627797 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026BAFA48CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026BB5F98F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026BB5F9AA10>]}
+[0m12:11:40.628793 [debug] [MainThread]: Flushing usage events
+[0m12:17:14.233206 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019329638190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019329689050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001932968A510>]}
+
+
+============================== 12:17:14.233206 | 52480d42-d350-4f98-9aee-c3eae0cdff01 ==============================
+[0m12:17:14.233206 [info ] [MainThread]: Running with dbt=1.8.1
+[0m12:17:14.233206 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Yash Joshi\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:17:27.566320 [debug] [MainThread]: Starter project path: C:\Users\Yash Joshi\Documents\GitHub\BankDataWarehouse-dbt-Redshift\venv\Lib\site-packages\dbt\include\starter_project
+[0m12:17:27.596663 [info ] [MainThread]: 
+Your new dbt project "DBT_Project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:17:27.596663 [info ] [MainThread]: Setting up your profile.
+[0m12:17:30.468469 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m12:17:30.468469 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m12:17:38.666797 [error] [MainThread]: Encountered an error:
+
+[0m12:17:38.669143 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\Yash Joshi\Documents\GitHub\BankDataWarehouse-dbt-Redshift\venv\Lib\site-packages\dbt\cli\requires.py", line 138, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Yash Joshi\Documents\GitHub\BankDataWarehouse-dbt-Redshift\venv\Lib\site-packages\dbt\cli\requires.py", line 101, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Yash Joshi\Documents\GitHub\BankDataWarehouse-dbt-Redshift\venv\Lib\site-packages\dbt\cli\main.py", line 469, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\Yash Joshi\Documents\GitHub\BankDataWarehouse-dbt-Redshift\venv\Lib\site-packages\dbt\task\init.py", line 347, in run
+    self.setup_profile(profile_name)
+  File "C:\Users\Yash Joshi\Documents\GitHub\BankDataWarehouse-dbt-Redshift\venv\Lib\site-packages\dbt\task\init.py", line 263, in setup_profile
+    self.create_profile_from_target(adapter, profile_name=profile_name)
+  File "C:\Users\Yash Joshi\Documents\GitHub\BankDataWarehouse-dbt-Redshift\venv\Lib\site-packages\dbt\task\init.py", line 180, in create_profile_from_target
+    self.create_profile_from_profile_template(profile_template, profile_name)
+  File "C:\Users\Yash Joshi\Documents\GitHub\BankDataWarehouse-dbt-Redshift\venv\Lib\site-packages\dbt\task\init.py", line 164, in create_profile_from_profile_template
+    target = self.generate_target_from_input(prompts, initial_target)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Yash Joshi\Documents\GitHub\BankDataWarehouse-dbt-Redshift\venv\Lib\site-packages\dbt\task\init.py", line 130, in generate_target_from_input
+    target[key] = click.prompt(
+                  ^^^^^^^^^^^^^
+  File "C:\Users\Yash Joshi\Documents\GitHub\BankDataWarehouse-dbt-Redshift\venv\Lib\site-packages\click\termui.py", line 164, in prompt
+    value = prompt_func(prompt)
+            ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Yash Joshi\Documents\GitHub\BankDataWarehouse-dbt-Redshift\venv\Lib\site-packages\click\termui.py", line 147, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m12:17:38.671137 [debug] [MainThread]: Command `dbt init` failed at 12:17:38.671137 after 24.50 seconds
+[0m12:17:38.672149 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193296AB310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019323218CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019329688ED0>]}
+[0m12:17:38.672149 [debug] [MainThread]: Flushing usage events
+[0m12:17:53.294498 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015647F78B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015647F78910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015647F7A8D0>]}
+
+
+============================== 12:17:53.298503 | b08ddda7-45f7-43c1-b3a2-a0d82de8d3b2 ==============================
+[0m12:17:53.298503 [info ] [MainThread]: Running with dbt=1.8.1
+[0m12:17:53.299648 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Yash Joshi\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:18:06.256453 [debug] [MainThread]: Starter project path: C:\Users\Yash Joshi\Documents\GitHub\BankDataWarehouse-dbt-Redshift\venv\Lib\site-packages\dbt\include\starter_project
+[0m12:18:06.276033 [info ] [MainThread]: 
+Your new dbt project "DBT_Redshift" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:18:06.277041 [info ] [MainThread]: Setting up your profile.
+[0m12:18:12.330594 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m12:18:12.331587 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m12:18:40.578079 [info ] [MainThread]: Profile DBT_Redshift written to C:\Users\Yash Joshi\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:18:40.579537 [debug] [MainThread]: Command `dbt init` succeeded at 12:18:40.579537 after 47.34 seconds
+[0m12:18:40.580530 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015641A28CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015647E0C150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015641CAE010>]}
+[0m12:18:40.580530 [debug] [MainThread]: Flushing usage events

@@ -1,0 +1,5 @@
+transaction_type_id,transaction_type_name,created_at
+1,Deposit,2023-06-01 10:21:32.692941
+2,Withdrawal,2024-02-27 10:21:32.692941
+3,Transfer,2023-09-07 10:21:32.692941
+4,Payment,2023-11-26 10:21:32.692941
