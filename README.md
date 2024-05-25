@@ -6,7 +6,7 @@
 - Develop a comprehensive data warehouse solution using DBT and Amazon Redshift to manage banking data, enabling advanced analytics and reporting capabilities.
 
 **Sector**:
-- Finance
+- Finance and Banking
 
 **Technologies Used**:
 - **DBT (Data Build Tool)**: Used for transforming data in the warehouse by creating, testing, and managing data transformations.
