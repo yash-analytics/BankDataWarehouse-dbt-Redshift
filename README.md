@@ -1,4 +1,4 @@
-# Bank Data Warehouse with DBT and Redshift
+# Bank Data Warehouse with dbt and Redshift
 
 ## Project Description
 
@@ -25,7 +25,7 @@
 - Data is initially generated using the `generate_data.py` script located in the `Data` folder, creating 14 CSVs for both fact and dimension tables, including 9 fact tables and 5 dimension tables.
 
 **Transformation Steps**:
-- Transformations are handled by DBT. The [models folder](./DBT_Redshift/models) within the DBT_Redshift directory contains all the necessary transformations moving data from the Bronze layer to the Silver and Gold layers. See screenshots of each layer transformation:
+- Transformations are handled by DBT. The [models folder](./DBT_Redshift/models) within the dbt_Redshift directory contains all the necessary transformations moving data from the Bronze layer to the Silver and Gold layers. See screenshots of each layer transformation:
     - Bronze Layer: 
       - ![Bronze Layer](./Project%20Screenshots/1.%20Bronze%20Layer.png)
     - DBT Run: 
