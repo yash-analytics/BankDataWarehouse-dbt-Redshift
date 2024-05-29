@@ -9,7 +9,7 @@
 - Finance and Banking
 
 **Technologies Used**:
-- **DBT (Data Build Tool)**: Used for transforming data in the warehouse by creating, testing, and managing data transformations.
+- **dbt (Data Build Tool)**: Used for transforming data in the warehouse by creating, testing, and managing data transformations.
 - **Amazon Redshift**: Serves as the data warehousing solution.
 - **Amazon S3**: Used for storing raw data and intermediate files.
 - **AWS Glue**: Utilized for creating a metadata catalog and running crawlers on S3 data.
